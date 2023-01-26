@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Burján Csaba - Életéről</title>
+        <link rel="stylesheet" href="burjan.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">KEZDŐLAP</a></li>
+                        <li><a href="eleterol.html">ÉLETÉRŐL</a></li>
+                        <li><a href="burjangaleria.html">GALÉRIA</a></li>
+                        <li><a href="eredmenyei.html">EREDMÉNYEI</a></li>
+                        <li><a href="kapcsolat.html">ELÉRHETŐSÉGEK</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Burján Csaba élete - avagy, <br>hogyan kezdődött mindez, s hogy is végződött?</h1>
+        </section>
+        
+        <!------------------ Rólunk kontent ------------------>
+        
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                <h1>Az életéről</h1>
+                <p>1994. szeptember 27.-én született Pécsen. Gyermekkorában sok sportágat kipróbált, végül a gyorskorcsolyánal kötött ki. Egy évig jégkorongozott, majd egy országos diákolimpiai részvétel után felfigyeltek rá, s azóta versenyszerűen gyorskorcsolyázik a PKSE sportolójaként (2002).
+                    </p>
+                    <p>
+                        2020 közepén viszont Burján Csaba annyira nagyot esett egy elektromos rollerrel, hogy még a nevét sem tudta megmondani a segítő járókelőknek. A gyorskorcsolyázó a balesetéről a Nemzeti Sportnak számolt be. Szerencsére az arra járók a segítségére siettek, ám az esés miatt pár óra így is kiesett az életéből. <i>"A világomat sem tudtam, a járókelők hívtak orvost, akiknek még a nevemet sem tudtam megmondani"</i> – nyilatkozta az olimpikon a Nemzeti Sportnak. A sportolót kórházba szállították, összevarrták, majd megállapították, hogy agyrázkódást szenvedett. Az ütés pont egy ideget ért, így egy hétig nem csinálhatott semmit. Néha még érez zsibbadást, ám már jól van.
+                    </p>
+                    <p>
+                        Ezután Burján elkezdte az edzéseket is, bár a szövetség decemberig eltiltotta egy Kínát sértő megjegyzés közzététele miatt. Legvégül pedig 2022. október 16.-án visszavonult. 
+                    </p>
+                    
+                <a href="https://www.blikk.hu/burjancsaba" class="hero-btn red-btn">HÍREK BURJÁN CSABÁRÓL</a>
+                </div>
+            
+                <div class="about-col">
+                    <img src="csabika.jpg" alt="Burján Csaba versenyt nyert">
+                </div>
+            </div>
+        </section>
+        
+        <!------------------ Footer ------------------>
+        
+        <section class="footer">
+            <h4>Burján Csaba Hivatalos Oldala</h4>
+            <p>Minden jog fenntartva.<br>A képek nem felhasználhatóak sajtá célra.</p>
+            <div class="icons">
+                <i class="fa fa-envelope-o" alt="E-mail"></i>
+                <a href=""><i class="fa fa-phone-square" alt="Discord"></i></a>
+                <a href="https://www.instagram.com/koriscs/?hl=hu"><i class="fa fa-instagram" alt="Instagram"></i></a>
+                <a href=""><i class="fab fa-tiktok"></i></a>
+                <a href=""><i class="fa fa-twitch" aria-hidden="true" alt="Twitch"></i></a>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Koncz Erika</p>
+        </section>
+        
+<!------------------JavaScript bekapcsolási menü------------------>
+            <script>
+                var navLinks = document.getElementById("navLinks");
+                
+                function showMenu(){
+                    navLinks.style.right = "0";
+                }
+                
+                function hideMenu(){
+                    navLinks.style.right = "-200px";
+                }
+        </script>
+<!------------------JavaScript bekapcsolási menü------------------>
+        
+    </body>
+</html>

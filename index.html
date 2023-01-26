@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Burján Csaba - A magyar olimpikon</title>
+        <link rel="stylesheet" href="burjan.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">KEZDŐLAP</a></li>
+                        <li><a href="eleterol.html">ÉLETÉRŐL</a></li>
+                        <li><a href="burjangaleria.html">GALÉRIA</a></li>
+                        <li><a href="eredmenyei.html">EREDMÉNYEI</a></li>
+                        <li><a href="kapcsolat.html">ELÉRHETŐSÉGEK</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Burján Csaba</h1>
+                <p>A visszavonult 2018-as Olimpiai <br> aranyérem szerző, Magyarország színeiben. </p>
+                <a href="https://24.hu/sport/2022/10/16/burjan-csaba-rovidpalyas-gyorskorcsolya-visszavonulas/" class="hero-btn">VISSZAVONULÁSÁNAK OKAI</a>
+            </div>
+        </section>
+        
+
+        <!------------------ Course ------------------>
+        <section class="course">
+            <h1>A Legkiemeltebb Eredményei</h1>
+                <p>(Pályafutása során)</p>
+            
+            <div class="row">
+                <div class="course-col">
+                    <h3>Világbajnokság <br> (aranyérem) </h3>
+                    <p>A hollandiai Dordrechtben rendezték a rövidpályás gyorskorcsolyázók 23. kontinensbajnokságát 2019. január 11. és január 13. között. A magyar csapat négy arany-, négy ezüst- és egy bronzéremmel – összesen kilenc dobogós helyezéssel –, az éremtáblázat élén zárta a viadalt. </p>
+                </div>
+                <div class="course-col">
+                    <h3>Olimpiai Játékok <br> (aranyérem) </h3>
+                    <p>A 2018. évi téli olimpiai játékok, hivatalos nevén a XXIII. téli olimpiai játékok egy több sportot magába foglaló nemzetközi sportesemény volt, amit 2018. február 9. és február 25. között rendeztek a dél-koreai Phjongcshangban. A 2018. évi téli olimpiai játékokon a rövidpályás gyorskorcsolya férfi 5000 méteres váltó versenyszámának elődöntőit február 13-án, a döntőt február 22-én rendezték, ezen a versenyen Burján Csaba pedig 1. helyezetet ért el. </p>
+                </div>
+                <div class="course-col">
+                    <h3>Magyar Bajnokság <br> (kétszeres aranyérem)</h3>
+                    <p>2011. január 22. és január 23. között rendezték a rövidpályás gyorskorcsolya országos bajnokságot a budapesti Gyakorló Jégcsarnokban. </p>
+                </div>
+            </div>
+        </section>
+        <!------------------ Campus ------------------>
+        
+        <section class="campus">
+            <h1>Galéria Betekintés</h1>
+            <p>Fotók, amelyek <i>Burján Csabát</i> ábrázolják.</p>
+        
+            <div class="row">
+                <div class="campus-col">
+                    <img src="11zon_cropped%20(4).jpeg" alt="LOGÓ">
+                    <div class="layer">
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="11zon_cropped%20(2).jpeg" alt="TWITCH EMOTE">
+                    <div class="layer">
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="11zon_cropped%20(3).jpeg" alt="DIGITAL ART">
+                    <div class="layer">
+                    </div>
+                </div>
+                <br>
+                
+            </div>
+            
+        </section>
+        
+        <!------------------ Call To Action ------------------>
+        
+        <section class="cta">
+            <h1>Tudj meg többet Burján Csaba életéről</h1>
+            <a href="eleterol.html" class="hero-btn">MUTASD</a>
+        </section>
+        
+        <!------------------ Footer ------------------>
+        
+        <section class="footer">
+            <h4>Burján Csaba Hivatalos Oldala</h4>
+            <p>Minden jog fenntartva.<br>A képek nem felhasználhatóak sajtá célra.</p>
+            <div class="icons">
+                <i class="fa fa-envelope-o" alt="E-mail"></i>
+                <a href=""><i class="fa fa-phone-square" alt="Telefonszám"></i></a>
+                <a href="https://www.instagram.com/koriscs/?hl=hu"><i class="fa fa-instagram" alt="Instagram"></i></a>
+                <a href=""><i class="fab fa-tiktok"></i></a>
+                <a href=""><i class="fa fa-twitch" aria-hidden="true" alt="Twitch"></i></a>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Koncz Erika</p>
+        </section>
+        
+<!------------------JavaScript bekapcsolási menü------------------>
+            <script>
+                var navLinks = document.getElementById("navLinks");
+                
+                function showMenu(){
+                    navLinks.style.right = "0";
+                }
+                
+                function hideMenu(){
+                    navLinks.style.right = "-200px";
+                }
+        </script>
+<!------------------JavaScript bekapcsolási menü------------------>
+        
+    </body>
+</html>

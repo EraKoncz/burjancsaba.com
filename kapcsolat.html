@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Burján Csaba - Elérhetőségei</title>
+        <link rel="stylesheet" href="burjan.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">KEZDŐLAP</a></li>
+                        <li><a href="eleterol.html">ÉLETÉRŐL</a></li>
+                        <li><a href="burjangaleria.html">GALÉRIA</a></li>
+                        <li><a href="eredmenyei.html">EREDMÉNYEI</a></li>
+                        <li><a href="kapcsolat.html">ELÉRHETŐSÉGEK</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Elérhetőségek</h1>
+        </section>
+        
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                        <h5>E-mail</h5>
+                        <p>katalin.holub@hunskate.hu</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-instagram"></i>
+                        <span>
+                        <h5>Instagram</h5>
+                        <p>@koriscs</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone-square"></i>
+                        <span>
+                        <h5>Telefonszám</h5>
+                        <p>+35 12 345 6789</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+
+                    <form action="form.php" method="post">
+                        <input type="text" name="name" placeholder="Név *" required>
+                        <input type="email" name="email" placeholder="E-mail *" required>
+                        <input type="text" name="subject" placeholder="Adja meg az E-mail témáját *" required>
+                        <textarea rows="8" name="message" placeholder="Üzenet *" required></textarea>
+                        <button type="Elküldés" class="hero-btn red-btn *">Üzenet Elküldése</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <!------------------ Footer ------------------>
+        
+        <section class="footer">
+            <h4>Burján Csaba Hivatalos Oldala</h4>
+            <p>Minden jog fenntartva.<br>A képek nem felhasználhatóak sajtá célra.</p>
+            <div class="icons">
+                <i class="fa fa-envelope-o" alt="E-mail"></i>
+                <a href=""><i class="fa fa-phone-square" alt="Discord"></i></a>
+                <a href="https://www.instagram.com/koriscs/?hl=hu"><i class="fa fa-instagram" alt="Instagram"></i></a>
+                <a href=""><i class="fab fa-tiktok"></i></a>
+                <a href=""><i class="fa fa-twitch" aria-hidden="true" alt="Twitch"></i></a>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Koncz Erika</p>
+        </section>
+        
+<!------------------JavaScript bekapcsolási menü------------------>
+            <script>
+                var navLinks = document.getElementById("navLinks");
+                
+                function showMenu(){
+                    navLinks.style.right = "0";
+                }
+                
+                function hideMenu(){
+                    navLinks.style.right = "-200px";
+                }
+        </script>
+<!------------------JavaScript bekapcsolási menü------------------>
+        
+    </body>
+</html>

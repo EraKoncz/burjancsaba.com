@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Burján Csaba - Galéria</title>
+        <link rel="stylesheet" href="burjan.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">KEZDŐLAP</a></li>
+                        <li><a href="eleterol.html">ÉLETÉRŐL</a></li>
+                        <li><a href="burjangaleria.html">GALÉRIA</a></li>
+                        <li><a href="eredmenyei.html">EREDMÉNYEI</a></li>
+                        <li><a href="kapcsolat.html">ELÉRHETŐSÉGEK</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Galéria</h1>
+        </section>
+        
+        
+        <!------------------ Galléria ------------------>
+        
+        <div class="container-gallery">
+            <div class="heading-gallery">
+            <h3><span class="span-gallery">Kiemeltebb Fotók Burján Csabáról</span></h3>
+            </div>
+            
+            <div class="box-gallery">
+                <div class="dream">
+                    <img src="csabika.jpg">
+                    <img src="megszuperebb.png">
+                </div>
+                
+                <div class="dream">
+                    <img src="nagyonmegy.jpg">
+                    <img src="zebra2.jpg">
+                </div>
+                
+                <div class="dream">
+                    <img src="ezisjolehetteso.jpg">
+                    <img src="jooo.jpg">
+                    <img src="burjan-csaba.jpg">
+                </div>
+            </div>
+        </div>
+        
+        <!------------------ Footer ------------------>
+        
+        <section class="footer">
+            <h4>Burján Csaba Hivatalos Oldala</h4>
+            <p>Minden jog fenntartva.<br>A képek nem felhasználhatóak sajtá célra.</p>
+            <div class="icons">
+                <i class="fa fa-envelope-o" alt="E-mail"></i>
+                <a href=""><i class="fa fa-phone-square" alt="Discord"></i></a>
+                <a href="https://www.instagram.com/koriscs/?hl=hu"><i class="fa fa-instagram" alt="Instagram"></i></a>
+                <a href=""><i class="fab fa-tiktok"></i></a>
+                <a href=""><i class="fa fa-twitch" aria-hidden="true" alt="Twitch"></i></a>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Koncz Erika</p>
+        </section>
+        
+<!------------------JavaScript bekapcsolási menü------------------>
+            <script>
+                var navLinks = document.getElementById("navLinks");
+                
+                function showMenu(){
+                    navLinks.style.right = "0";
+                }
+                
+                function hideMenu(){
+                    navLinks.style.right = "-200px";
+                }
+        </script>
+<!------------------JavaScript bekapcsolási menü------------------>
+        
+    </body>
+</html>
